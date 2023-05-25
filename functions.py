@@ -19,6 +19,7 @@ def print_quote(quote):
 
 def view_quotes(quotes):
     for quote in quotes:
+<<<<<<< HEAD
         print_quote(quote)
 
 def add_quote(quotes, filename):
@@ -27,3 +28,6 @@ def add_quote(quotes, filename):
 
     with open(filename, 'a') as file:
         file.write(new_quote)
+=======
+        print_quote(quote)
+>>>>>>> origin/main
